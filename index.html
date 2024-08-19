@@ -16,7 +16,7 @@
             const targetWindow = window.open('http://localhost:8081/page2.html', '_blank');
             const message = 'Hello from Page 1!';
             setTimeout(() => {
-                targetWindow.postMessage(message, 'http://localhost:8081');
+                targetWindow.postMessage(message, 'https://gentle-hill-05cf65503.5.azurestaticapps.net');
             }, 1000);
         });
     </script>
